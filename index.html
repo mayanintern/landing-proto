@@ -423,7 +423,7 @@
             <div style="font-family:'Roboto Mono',monospace;font-size:9px;color:#83f4ff;">CONFIRMED ✓</div>
           </div>
           <div style="display:flex;flex-direction:column;gap:6px;">
-            <div style="display:flex;justify-content:space-between;"><span style="font-family:'Wix Madefor Text',sans-serif;font-size:11px;color:#555;">Token</span><span style="font-family:'Roboto Mono',monospace;font-size:11px;color:#aaa;">USDC</span></div>
+            <div style="display:flex;justify-content:space-between;"><span style="font-family:'Wix Madefor Text',sans-serif;font-size:11px;color:#555;">Asset</span><span style="font-family:'Roboto Mono',monospace;font-size:11px;color:#aaa;">USDC</span></div>
             <div style="display:flex;justify-content:space-between;"><span style="font-family:'Wix Madefor Text',sans-serif;font-size:11px;color:#555;">Destination</span><span style="font-family:'Roboto Mono',monospace;font-size:11px;color:#aaa;">Solana</span></div>
             <div style="display:flex;justify-content:space-between;"><span style="font-family:'Wix Madefor Text',sans-serif;font-size:11px;color:#555;">Minimum</span><span style="font-family:'Roboto Mono',monospace;font-size:11px;color:#aeffd4;">3,240 USDC</span></div>
           </div>
@@ -440,8 +440,8 @@
         </div>
       </div>
       <div>
-        <div class="why-title">Payments-grade price certainty</div>
-        <div class="why-body">You set the outcome before anything moves: the token, the destination chain, and the amount you'll accept. With &gt;99% swap reliability, 99.99% uptime, and instant settlement, Mayan is built for the financial apps of the future.</div>
+        <div class="why-title">Payments-grade price reliability</div>
+        <div class="why-body">You set the outcome before anything moves: the asset, the destination chain, and the amount you'll accept. With &gt;99% swap reliability, 99.99% uptime, and instant settlement, Mayan is built for the financial apps of the future.</div>
       </div>
     </div>    <!-- Card 3: Zaps -->
     <div class="why-card">
@@ -468,41 +468,34 @@
 
     <!-- Card 4: Move size -->
     <div class="why-card">
-      <div style="flex:1;min-height:160px;margin-bottom:28px;display:flex;flex-direction:column;justify-content:center;">
-        <div style="background:#08100e;border:1px solid #1a3020;overflow:hidden;">
-          <div style="background:#0c1814;padding:10px 16px;border-bottom:1px solid #1a3020;display:flex;align-items:center;justify-content:space-between;">
-            <div style="font-family:'Roboto Mono',monospace;font-size:9px;color:#2a5040;letter-spacing:.08em;">ORDER EXECUTION</div>
-            <div style="font-family:'Roboto Mono',monospace;font-size:9px;color:#aeffd4;letter-spacing:.05em;">FILLED ✓</div>
-          </div>
-          <div style="padding:16px 18px;">
-            <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #141e18;">
-              <div style="font-family:'Space Grotesk',sans-serif;font-size:26px;color:#fff;font-weight:300;letter-spacing:-.5px;">$30,000,000</div>
-              <div style="font-family:'Roboto Mono',monospace;font-size:10px;color:#444;">USDC</div>
-            </div>
-            <div style="display:flex;flex-direction:column;gap:9px;">
-              <div style="display:flex;justify-content:space-between;align-items:center;">
-                <span style="font-family:'Wix Madefor Text',sans-serif;font-size:11px;color:#444;">Route</span>
-                <span style="font-family:'Roboto Mono',monospace;font-size:10px;color:#777;">Ethereum → Solana</span>
-              </div>
-              <div style="display:flex;justify-content:space-between;align-items:center;">
-                <span style="font-family:'Wix Madefor Text',sans-serif;font-size:11px;color:#444;">Execution</span>
-                <span style="font-family:'Roboto Mono',monospace;font-size:10px;color:#83f4ff;">solver auction</span>
-              </div>
-              <div style="display:flex;justify-content:space-between;align-items:center;">
-                <span style="font-family:'Wix Madefor Text',sans-serif;font-size:11px;color:#444;">Custody</span>
-                <span style="font-family:'Roboto Mono',monospace;font-size:10px;color:#aeffd4;">yours throughout</span>
-              </div>
-              <div style="display:flex;justify-content:space-between;align-items:center;">
-                <span style="font-family:'Wix Madefor Text',sans-serif;font-size:11px;color:#444;">Settlement</span>
-                <span style="font-family:'Roboto Mono',monospace;font-size:10px;color:#aeffd4;">settled in seconds</span>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div style="flex:1;min-height:160px;margin-bottom:28px;">
+        <svg viewBox="0 0 380 145" width="100%" xmlns="http://www.w3.org/2000/svg">
+          <line x1="0" y1="48" x2="380" y2="48" stroke="#0e0e16" stroke-width="1"/>
+          <line x1="0" y1="96" x2="380" y2="96" stroke="#0e0e16" stroke-width="1"/>
+          <rect x="12" y="44" width="76" height="58" rx="2" fill="#0a1218" stroke="#1a2830" stroke-width="1"/>
+          <text x="50" y="66" font-family="Roboto Mono,monospace" font-size="8" fill="#2a5060" text-anchor="middle" letter-spacing=".06em">ETHEREUM</text>
+          <text x="50" y="83" font-family="Space Grotesk,sans-serif" font-size="19" fill="#ffffff" text-anchor="middle" font-weight="300">30M</text>
+          <text x="50" y="96" font-family="Roboto Mono,monospace" font-size="8" fill="#3a3a44" text-anchor="middle">USDC</text>
+          <path d="M 88 73 Q 190 12 292 73" stroke="#83f4ff" stroke-width="3" fill="none" stroke-opacity=".08"/>
+          <path d="M 88 73 Q 190 13 292 73" stroke="#83f4ff" stroke-width="1.8" fill="none" stroke-opacity=".28"/>
+          <path d="M 88 73 Q 190 14 292 73" stroke="#83f4ff" stroke-width="1" fill="none" stroke-opacity=".55"/>
+          <rect x="147" y="17" width="86" height="22" rx="2" fill="#060c12" stroke="#83f4ff" stroke-width=".8" stroke-opacity=".55"/>
+          <text x="190" y="31" font-family="Space Grotesk,sans-serif" font-size="10" fill="#83f4ff" text-anchor="middle">$30,000,000</text>
+          <rect x="292" y="44" width="76" height="58" rx="2" fill="#060e0a" stroke="#1a3020" stroke-width="1"/>
+          <text x="330" y="66" font-family="Roboto Mono,monospace" font-size="8" fill="#1e5040" text-anchor="middle" letter-spacing=".06em">SOLANA</text>
+          <text x="330" y="84" font-family="Roboto Mono,monospace" font-size="10" fill="#aeffd4" text-anchor="middle">FILLED ✓</text>
+          <text x="330" y="96" font-family="Roboto Mono,monospace" font-size="8" fill="#2a5a3a" text-anchor="middle">SECONDS</text>
+          <rect x="12" y="116" width="356" height="18" rx="2" fill="#0d0d14" stroke="#1a1a22" stroke-width="1"/>
+          <line x1="144" y1="120" x2="144" y2="130" stroke="#1e1e28" stroke-width="1"/>
+          <line x1="244" y1="120" x2="244" y2="130" stroke="#1e1e28" stroke-width="1"/>
+          <text x="72" y="128" font-family="Roboto Mono,monospace" font-size="7.5" fill="#252535" text-anchor="middle" letter-spacing=".04em">NON-CUSTODIAL</text>
+          <text x="194" y="128" font-family="Roboto Mono,monospace" font-size="7.5" fill="#252535" text-anchor="middle" letter-spacing=".04em">DRIVER AUCTION</text>
+          <text x="308" y="128" font-family="Roboto Mono,monospace" font-size="7.5" fill="#252535" text-anchor="middle" letter-spacing=".04em">SETTLES IN SECONDS</text>
+        </svg>
       </div>
       <div>
-        <div class="why-title">Move up to $30M in one transaction</div>
-        <div class="why-body">Move up to $30M cross-chain in a single transaction, keeping full custody from start to finish. Solvers compete for your order and settle in seconds, giving sophisticated traders the certainty and speed that size demands.</div>
+        <div class="why-title">Move serious capital in a single transaction</div>
+        <div class="why-body">Move up to $30M cross-chain in a single transaction, keeping full custody from start to finish. Drivers compete for your order and settle in seconds, giving sophisticated traders the speed and certainty that size demands.</div>
       </div>
     </div>
 
@@ -525,7 +518,7 @@
       </button>
       <button class="sol-tab" onclick="showSolution('applications',this)">
         <span class="sol-tab-name">Applications</span>
-        <span class="sol-tab-desc">Accept any token, trigger any action</span>
+        <span class="sol-tab-desc">Accept any asset, trigger any action</span>
       </button>
       <button class="sol-tab" onclick="showSolution('chains',this)">
         <span class="sol-tab-name">Chains</span>
@@ -533,7 +526,7 @@
       </button>
       <button class="sol-tab" onclick="showSolution('commerce',this)">
         <span class="sol-tab-name">Commerce</span>
-        <span class="sol-tab-desc">Accept any token, deliver any asset</span>
+        <span class="sol-tab-desc">Any asset in, your configured asset out</span>
       </button>
     </div>
 
@@ -544,7 +537,7 @@
         <div class="sol-panel-body">Every swap your users complete outside your wallet is a fee that didn't come back to you. Integrate Mayan directly and earn on every cross-chain transaction, settled automatically.</div>
         <ul class="sol-features">
           <li>Integrate directly, with no aggregator layer and no fee split</li>
-          <li>Keep your existing design, branding, and UX intact — no rebuild required</li>
+          <li>Keep your existing design, branding, and UX intact, with no rebuild required</li>
           <li>Keep user self-custody intact, by default</li>
           <li>Live in a day</li>
         </ul>
@@ -593,13 +586,13 @@
     <div id="sol-applications" class="sol-panel">
       <div>
         <div class="sol-panel-title">Your app, open to every ecosystem</div>
-        <div class="sol-panel-body">One integration opens your app to users from every chain. They arrive with whatever token they hold and complete any action in a single transaction.</div>
+        <div class="sol-panel-body">One integration opens your app to users from every chain. They arrive with whatever asset they hold and complete any action in a single transaction.</div>
         <ul class="sol-features">
-          <li>Accept users from any chain, any token, with no extra steps on their end</li>
+          <li>Accept users from any chain, any asset, with no extra steps on their end</li>
           <li>Attach any onchain action to the swap with Zaps, from deposits to stakes to any contract call</li>
           <li>Collect custom fees on every transaction</li>
           <li>Opt in to gas sponsorship, giving users a gasless experience</li>
-          <li>Control routing and execution with the full SDK</li>
+          <li>Configure routing, fees, and execution parameters through the SDK</li>
         </ul>
         <div class="sol-cta-row">
           <button class="btn-white" style="font-size:13px;padding:9px 20px;" onclick="window.open('https://docs.mayan.finance','_blank')">Start integrating</button>
@@ -695,7 +688,7 @@
       <div class="sol-studies">
         <span class="sol-studies-lbl">Case studies</span>
         <div class="sol-studies-row">
-          <div class="sol-study-item"><a href="#" class="sol-study-co">Monad</a><span class="sol-study-line">$316M in cross-chain inflows in its first five months on mainnet. The fastest ramp of any chain on the network, growing 23% in just six weeks.</span></div>
+          <div class="sol-study-item"><a href="#" class="sol-study-co">Monad</a><span class="sol-study-line">Monad pulled $316M in cross-chain inflows through Mayan in its first five months on mainnet, growing 23% in just the last six weeks, making it the fastest-growing chain on the network.</span></div>
           <div class="sol-study-item"><a href="#" class="sol-study-co">Solana</a><span class="sol-study-line">$5B+ routed through Mayan to Solana, making it the largest cross-chain destination on the network.</span></div>
         </div>
       </div>
@@ -704,12 +697,12 @@
     <!-- Commerce -->
     <div id="sol-commerce" class="sol-panel">
       <div>
-        <div class="sol-panel-title">Accept any token, deliver any asset</div>
-        <div class="sol-panel-body">Customers send any token from any chain to a reusable deposit address. You always receive the asset your product runs on, regardless of what was sent. The same model works in reverse: configure delivery so your users receive exactly the token they need.</div>
+        <div class="sol-panel-title">Any asset in, your configured asset out</div>
+        <div class="sol-panel-body">Customers send any asset from any chain to a reusable deposit address. You always receive exactly the asset you've configured, regardless of what was sent. The same model works in reverse: configure delivery so your users receive exactly the asset they need.</div>
         <ul class="sol-features">
-          <li>Accept any token from any chain, with no extra steps required of your customers</li>
-          <li>Always receive the asset your product runs on, regardless of what was sent</li>
-          <li>Deliver any token to users at the end of an onramp, funding, or payment flow</li>
+          <li>Accept any asset from any chain, with no extra steps required of your customers</li>
+          <li>Always receive exactly the asset you've configured, regardless of what was sent</li>
+          <li>Deliver any asset to users at the end of an onramp, funding, or payment flow</li>
           <li>Generate reusable deposit addresses that always settle to your configured asset</li>
           <li>Collect fees on every settlement, paid out in your destination asset</li>
         </ul>
@@ -723,7 +716,7 @@
         <div style="display:flex;align-items:stretch;gap:0;">
           <div style="flex:1;background:#111118;border:1px solid #2a2a38;padding:11px 13px;">
             <div style="font-family:'Roboto Mono',monospace;font-size:8px;color:#333;margin-bottom:6px;letter-spacing:.06em;">SENDER</div>
-            <div style="font-family:'Wix Madefor Text',sans-serif;font-size:11px;color:#555;margin-bottom:3px;">Any token, any chain</div>
+            <div style="font-family:'Wix Madefor Text',sans-serif;font-size:11px;color:#555;margin-bottom:3px;">Any asset, any chain</div>
             <div style="font-family:'Roboto Mono',monospace;font-size:11px;color:#888;">10,000 USDC</div>
           </div>
           <div style="display:flex;align-items:center;padding:0 7px;flex-shrink:0;">
