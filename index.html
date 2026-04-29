@@ -533,7 +533,7 @@
       </button>
       <button class="sol-tab" onclick="showSolution('commerce',this)">
         <span class="sol-tab-name">Commerce</span>
-        <span class="sol-tab-desc">Accept any payment, settle predictably</span>
+        <span class="sol-tab-desc">Accept any token, deliver any asset</span>
       </button>
     </div>
 
@@ -543,56 +543,40 @@
         <div class="sol-panel-title">Turn cross-chain into a revenue line</div>
         <div class="sol-panel-body">Every swap your users complete outside your wallet is a fee that didn't come back to you. Integrate Mayan directly and earn on every cross-chain transaction, settled automatically.</div>
         <ul class="sol-features">
-          <li>Earn a fee on every swap, settled automatically</li>
-          <li>Integrate directly — no aggregator layer, no fee split</li>
-          <li>Keep users inside your product without rebuilding your UX</li>
-          <li>Users never sacrifice self-custody</li>
+          <li>Integrate directly, with no aggregator layer and no fee split</li>
+          <li>Keep your existing design, branding, and UX intact — no rebuild required</li>
+          <li>Keep user self-custody intact, by default</li>
           <li>Live in a day</li>
         </ul>
         <div class="sol-cta-row">
           <button class="btn-white" style="font-size:13px;padding:9px 20px;" onclick="window.open('https://docs.mayan.finance','_blank')">Start integrating</button>
         </div>
       </div>
-      <!-- Wallet fee revenue mockup -->
+      <!-- Wallet swap UI with cross-chain tab -->
       <div class="sol-img" style="min-height:300px;padding:24px;align-items:flex-start;background:#18181e;">
-        <div style="width:100%;background:#1a1a20;border:1px solid #2a2a32;border-radius:4px;overflow:hidden;">
-          <div style="background:#212128;padding:11px 16px;border-bottom:1px solid #2a2a32;display:flex;align-items:center;justify-content:space-between;">
-            <span style="font-family:'Space Grotesk',sans-serif;font-size:11px;color:#555;">Fee revenue</span>
-            <span style="font-family:'Roboto Mono',monospace;font-size:9px;color:#2a5a2a;letter-spacing:.05em;">LIVE</span>
+        <div style="width:100%;background:#1e1e24;border:1px solid #2a2a32;overflow:hidden;border-radius:6px;">
+          <div style="background:#252530;padding:12px 20px;border-bottom:1px solid #2a2a32;display:flex;align-items:center;justify-content:space-between;">
+            <span style="font-family:'Space Grotesk',sans-serif;font-size:12px;color:#3a3a42;">Portfolio</span>
+            <span style="font-family:'Space Grotesk',sans-serif;font-size:12px;color:#83f4ff;font-weight:500;border-bottom:1px solid rgba(131,244,255,.4);padding-bottom:2px;">Cross-Chain</span>
+            <span style="font-family:'Space Grotesk',sans-serif;font-size:12px;color:#3a3a42;">History</span>
           </div>
-          <div style="padding:14px 16px;border-bottom:1px solid #1e1e26;">
-            <div style="font-family:'Wix Madefor Text',sans-serif;font-size:10px;color:#3a3a42;margin-bottom:4px;">Earned today</div>
-            <div style="font-family:'Space Grotesk',sans-serif;font-size:22px;color:#aeffd4;font-weight:400;">$1,248.40</div>
-          </div>
-          <div style="padding:10px 16px;display:flex;flex-direction:column;gap:9px;">
-            <div style="display:flex;align-items:center;justify-content:space-between;">
-              <div style="display:flex;align-items:center;gap:8px;">
-                <div style="width:4px;height:4px;border-radius:50%;background:#2a2a32;flex-shrink:0;"></div>
-                <span style="font-family:'Roboto Mono',monospace;font-size:10px;color:#555;">ETH → SOL</span>
+          <div style="padding:16px;display:flex;flex-direction:column;gap:0;">
+            <div style="background:#141418;border:1px solid #2a2a32;padding:13px 16px;display:flex;align-items:center;justify-content:space-between;">
+              <div style="display:flex;align-items:center;gap:10px;">
+                <div style="width:26px;height:26px;border-radius:50%;background:linear-gradient(135deg,#627EEA,#8A9FE8);"></div>
+                <div><div style="font-size:11px;font-weight:600;font-family:'Space Grotesk',sans-serif;">ETH</div><div style="font-size:9px;color:#555;font-family:'Wix Madefor Text',sans-serif;">Ethereum</div></div>
               </div>
-              <span style="font-family:'Roboto Mono',monospace;font-size:10px;color:#3a7a4a;">+$4.20</span>
+              <div style="text-align:right;"><div style="font-family:'Space Grotesk',sans-serif;font-size:17px;">1.5</div><div style="font-size:9px;color:#555;font-family:'Wix Madefor Text',sans-serif;">$3,240.00</div></div>
             </div>
-            <div style="display:flex;align-items:center;justify-content:space-between;">
-              <div style="display:flex;align-items:center;gap:8px;">
-                <div style="width:4px;height:4px;border-radius:50%;background:#2a2a32;flex-shrink:0;"></div>
-                <span style="font-family:'Roboto Mono',monospace;font-size:10px;color:#555;">USDC → ARB</span>
+            <div style="display:flex;justify-content:center;"><div style="width:26px;height:26px;background:#252530;border:1px solid #2a2a32;display:flex;align-items:center;justify-content:center;"><svg width="8" height="12" viewBox="0 0 8 12" fill="none"><path d="M4 1v10M4 11L1 8M4 11L7 8" stroke="#555" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div>
+            <div style="background:#141418;border:1px solid #2a2a32;padding:13px 16px;display:flex;align-items:center;justify-content:space-between;">
+              <div style="display:flex;align-items:center;gap:10px;">
+                <div style="width:26px;height:26px;border-radius:50%;background:linear-gradient(135deg,#9945FF,#14F195);"></div>
+                <div><div style="font-size:11px;font-weight:600;font-family:'Space Grotesk',sans-serif;">SOL</div><div style="font-size:9px;color:#555;font-family:'Wix Madefor Text',sans-serif;">Solana</div></div>
               </div>
-              <span style="font-family:'Roboto Mono',monospace;font-size:10px;color:#3a7a4a;">+$8.75</span>
+              <div style="text-align:right;"><div style="font-family:'Space Grotesk',sans-serif;font-size:17px;color:#aeffd4;">24.8</div><div style="font-size:9px;color:#3a7a4a;font-family:'Wix Madefor Text',sans-serif;">best rate</div></div>
             </div>
-            <div style="display:flex;align-items:center;justify-content:space-between;">
-              <div style="display:flex;align-items:center;gap:8px;">
-                <div style="width:4px;height:4px;border-radius:50%;background:#2a2a32;flex-shrink:0;"></div>
-                <span style="font-family:'Roboto Mono',monospace;font-size:10px;color:#555;">SOL → BASE</span>
-              </div>
-              <span style="font-family:'Roboto Mono',monospace;font-size:10px;color:#3a7a4a;">+$2.50</span>
-            </div>
-            <div style="display:flex;align-items:center;justify-content:space-between;">
-              <div style="display:flex;align-items:center;gap:8px;">
-                <div style="width:4px;height:4px;border-radius:50%;background:#2a2a32;flex-shrink:0;"></div>
-                <span style="font-family:'Roboto Mono',monospace;font-size:10px;color:#555;">BNB → SOL</span>
-              </div>
-              <span style="font-family:'Roboto Mono',monospace;font-size:10px;color:#3a7a4a;">+$6.10</span>
-            </div>
+            <div style="padding:12px 0 0;"><div style="background:#fff;border-radius:999px;padding:9px;text-align:center;font-family:'Space Grotesk',sans-serif;font-size:12px;color:#0d0d0d;font-weight:500;">Swap</div></div>
           </div>
         </div>
       </div>
@@ -612,10 +596,10 @@
         <div class="sol-panel-body">One integration opens your app to users from every chain. They arrive with whatever token they hold and complete any action in a single transaction.</div>
         <ul class="sol-features">
           <li>Accept users from any chain, any token, with no extra steps on their end</li>
-          <li>Attach any onchain action to the swap, from deposits to stakes to any contract call</li>
-          <li>Custom fees collected on every transaction</li>
+          <li>Attach any onchain action to the swap with Zaps, from deposits to stakes to any contract call</li>
+          <li>Collect custom fees on every transaction</li>
           <li>Opt in to gas sponsorship, giving users a gasless experience</li>
-          <li>Full SDK control over routing and execution</li>
+          <li>Control routing and execution with the full SDK</li>
         </ul>
         <div class="sol-cta-row">
           <button class="btn-white" style="font-size:13px;padding:9px 20px;" onclick="window.open('https://docs.mayan.finance','_blank')">Start integrating</button>
@@ -677,9 +661,9 @@
         <div class="sol-panel-title">Reachable from every chain, from day one</div>
         <div class="sol-panel-body">Before your first block, your chain is already connected to every ecosystem Mayan touches. Users from Ethereum, Solana, Base, and beyond can arrive on day one.</div>
         <ul class="sol-features">
-          <li>Any-to-any swaps live from launch day</li>
-          <li>Continuous inflow from millions of active wallets</li>
-          <li>Built on Wormhole infrastructure, independently audited</li>
+          <li>Launch with any-to-any swaps active from day one</li>
+          <li>Reach millions of active wallets across every ecosystem</li>
+          <li>Build on Wormhole infrastructure, independently audited</li>
         </ul>
         <div class="sol-cta-row">
           <button class="btn-white" style="font-size:13px;padding:9px 20px;" onclick="window.open('https://docs.mayan.finance','_blank')">Start integrating</button>
@@ -711,7 +695,7 @@
       <div class="sol-studies">
         <span class="sol-studies-lbl">Case studies</span>
         <div class="sol-studies-row">
-          <div class="sol-study-item"><a href="#" class="sol-study-co">Monad</a><span class="sol-study-line">In five months on mainnet, Monad crossed $316M in cross-chain inflows through Mayan, up 23% in six weeks.</span></div>
+          <div class="sol-study-item"><a href="#" class="sol-study-co">Monad</a><span class="sol-study-line">$316M in cross-chain inflows in its first five months on mainnet. The fastest ramp of any chain on the network, growing 23% in just six weeks.</span></div>
           <div class="sol-study-item"><a href="#" class="sol-study-co">Solana</a><span class="sol-study-line">$5B+ routed through Mayan to Solana, making it the largest cross-chain destination on the network.</span></div>
         </div>
       </div>
@@ -720,43 +704,59 @@
     <!-- Commerce -->
     <div id="sol-commerce" class="sol-panel">
       <div>
-        <div class="sol-panel-title">Accept any token, settle in yours</div>
-        <div class="sol-panel-body">Your customers send any token from any chain to a deposit address you control. Mayan handles the conversion and delivers the exact asset you've configured.</div>
+        <div class="sol-panel-title">Accept any token, deliver any asset</div>
+        <div class="sol-panel-body">Customers send any token from any chain to a reusable deposit address. You always receive the asset your product runs on, regardless of what was sent. The same model works in reverse: configure delivery so your users receive exactly the token they need.</div>
         <ul class="sol-features">
-          <li>Accept payment in any token, so your customer pays with what they have</li>
-          <li>Let onramp users access any token, not just what the ramp supports</li>
-          <li>Generate a deposit address and receive exactly the asset you configured</li>
+          <li>Accept any token from any chain, with no extra steps required of your customers</li>
+          <li>Always receive the asset your product runs on, regardless of what was sent</li>
+          <li>Deliver any token to users at the end of an onramp, funding, or payment flow</li>
+          <li>Generate reusable deposit addresses that always settle to your configured asset</li>
+          <li>Collect fees on every settlement, paid out in your destination asset</li>
         </ul>
         <div class="sol-cta-row">
           <button class="btn-white" style="font-size:13px;padding:9px 20px;" onclick="window.open('https://docs.mayan.finance','_blank')">Start integrating</button>
         </div>
       </div>
-      <!-- Commerce flow diagram — dark mode -->
-      <div class="sol-img" style="min-height:300px;background:#0d0d14;padding:32px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;">
-        <div style="display:flex;align-items:center;gap:0;width:100%;max-width:440px;">
-          <div style="flex:1;background:#111118;border:1px solid #2a2a38;padding:14px;border-radius:4px;">
-            <div style="font-family:'Roboto Mono',monospace;font-size:9px;color:#444;margin-bottom:8px;letter-spacing:.05em;">SENDER</div>
-            <div style="font-family:'Wix Madefor Text',sans-serif;font-size:11px;color:#666;margin-bottom:4px;">Any token, any chain</div>
-            <div style="font-family:'Roboto Mono',monospace;font-size:12px;color:#aaa;">10,000 USDC</div>
+      <!-- Commerce flow visual — deposit address + bidirectional -->
+      <div class="sol-img" style="min-height:300px;background:#0d0d14;padding:20px 22px;display:flex;flex-direction:column;justify-content:center;gap:12px;">
+        <!-- Sender → Deposit address row -->
+        <div style="display:flex;align-items:stretch;gap:0;">
+          <div style="flex:1;background:#111118;border:1px solid #2a2a38;padding:11px 13px;">
+            <div style="font-family:'Roboto Mono',monospace;font-size:8px;color:#333;margin-bottom:6px;letter-spacing:.06em;">SENDER</div>
+            <div style="font-family:'Wix Madefor Text',sans-serif;font-size:11px;color:#555;margin-bottom:3px;">Any token, any chain</div>
+            <div style="font-family:'Roboto Mono',monospace;font-size:11px;color:#888;">10,000 USDC</div>
           </div>
-          <div style="flex-shrink:0;padding:0 8px;">
-            <svg width="32" height="12" viewBox="0 0 32 12"><line x1="0" y1="6" x2="26" y2="6" stroke="#83f4ff" stroke-width="1.5" stroke-opacity=".4"/><polyline points="22,2 28,6 22,10" fill="none" stroke="#83f4ff" stroke-width="1.5" stroke-opacity=".4"/></svg>
+          <div style="display:flex;align-items:center;padding:0 7px;flex-shrink:0;">
+            <svg width="22" height="10" viewBox="0 0 22 10"><line x1="0" y1="5" x2="16" y2="5" stroke="#83f4ff" stroke-width="1.2" stroke-opacity=".4"/><polyline points="12,2 18,5 12,8" fill="none" stroke="#83f4ff" stroke-width="1.2" stroke-opacity=".4"/></svg>
           </div>
-          <div style="flex:1.2;background:#0a1520;border:1px solid #1a4a60;padding:14px;border-radius:4px;text-align:center;">
-            <div style="display:flex;align-items:center;justify-content:center;gap:6px;margin-bottom:6px;">
-              <div style="width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#6b3fa0,#83f4ff);"></div>
-              <div style="font-family:'Space Grotesk',sans-serif;font-size:10px;color:#83f4ff;font-weight:500;">Mayan</div>
+          <div style="flex:1.5;background:#0a1218;border:1px solid #1a3040;padding:11px 13px;">
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:5px;">
+              <div style="font-family:'Roboto Mono',monospace;font-size:8px;color:#1e4a5a;letter-spacing:.06em;">DEPOSIT ADDRESS</div>
+              <div style="font-family:'Roboto Mono',monospace;font-size:8px;color:#2a5a3a;">REUSABLE</div>
             </div>
-            <div style="font-family:'Roboto Mono',monospace;font-size:8px;color:#2a6a8a;letter-spacing:.05em;">SWAP COMPLETED</div>
+            <div style="font-family:'Roboto Mono',monospace;font-size:10px;color:#555;margin-bottom:5px;">0x4f2a...8b91</div>
+            <div style="font-family:'Roboto Mono',monospace;font-size:8px;color:#1a3a48;letter-spacing:.04em;">MAYAN HANDLES CONVERSION</div>
           </div>
-          <div style="flex-shrink:0;padding:0 8px;">
-            <svg width="32" height="12" viewBox="0 0 32 12"><line x1="0" y1="6" x2="26" y2="6" stroke="#83f4ff" stroke-width="1.5" stroke-opacity=".4"/><polyline points="22,2 28,6 22,10" fill="none" stroke="#83f4ff" stroke-width="1.5" stroke-opacity=".4"/></svg>
+        </div>
+        <!-- Two output rows -->
+        <div style="display:flex;gap:8px;">
+          <div style="flex:1;background:#0d0d14;border:1px solid #1e1e26;padding:10px 12px;">
+            <div style="font-family:'Roboto Mono',monospace;font-size:8px;color:#2a4a40;letter-spacing:.05em;margin-bottom:5px;">YOU RECEIVE</div>
+            <div style="font-family:'Roboto Mono',monospace;font-size:13px;color:#83f4ff;font-weight:400;">USDC</div>
+            <div style="font-family:'Wix Madefor Text',sans-serif;font-size:10px;color:#333;margin-top:3px;">configured asset</div>
           </div>
-          <div style="flex:1;background:#111118;border:1px solid #2a2a38;padding:14px;border-radius:4px;">
-            <div style="font-family:'Roboto Mono',monospace;font-size:9px;color:#444;margin-bottom:8px;letter-spacing:.05em;">RECEIVED</div>
-            <div style="font-family:'Wix Madefor Text',sans-serif;font-size:11px;color:#666;margin-bottom:4px;">Exact asset</div>
-            <div style="font-family:'Roboto Mono',monospace;font-size:12px;color:#aeffd4;">250 HYPE &#10003;</div>
+          <div style="flex:1;background:#080e0a;border:1px solid #1a2c1e;padding:10px 12px;">
+            <div style="font-family:'Roboto Mono',monospace;font-size:8px;color:#2a5a2a;letter-spacing:.05em;margin-bottom:5px;">USER RECEIVES</div>
+            <div style="font-family:'Roboto Mono',monospace;font-size:13px;color:#aeffd4;font-weight:400;">HYPE ✓</div>
+            <div style="font-family:'Wix Madefor Text',sans-serif;font-size:10px;color:#333;margin-top:3px;">any configured token</div>
           </div>
+        </div>
+        <!-- Use case tags -->
+        <div style="display:flex;gap:5px;flex-wrap:wrap;">
+          <div style="font-family:'Roboto Mono',monospace;font-size:8px;color:#252530;letter-spacing:.04em;border:1px solid #252530;padding:3px 7px;">ONRAMP</div>
+          <div style="font-family:'Roboto Mono',monospace;font-size:8px;color:#252530;letter-spacing:.04em;border:1px solid #252530;padding:3px 7px;">ACCOUNT FUNDING</div>
+          <div style="font-family:'Roboto Mono',monospace;font-size:8px;color:#252530;letter-spacing:.04em;border:1px solid #252530;padding:3px 7px;">PAYMENTS</div>
+          <div style="font-family:'Roboto Mono',monospace;font-size:8px;color:#252530;letter-spacing:.04em;border:1px solid #252530;padding:3px 7px;">EXCHANGE DEPOSITS</div>
         </div>
       </div>
       <div class="sol-studies">
